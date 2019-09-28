@@ -12,6 +12,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "@aws-amplify/cli": "^3.0.0",
     "sirv-cli": "^0.4.4"
   },
   "scripts": {

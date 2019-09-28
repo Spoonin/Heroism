@@ -1,0 +1,11 @@
+type Game @model {
+  id: ID!
+  owner: String!
+  rival: String
+  moves: [Move] @connection(name: "GameMoves")
+}
+type Move @model {
+  userId: String!
+  game: Game @connection(name: "GameMoves")
+  fieldNumber: Int!
+}
