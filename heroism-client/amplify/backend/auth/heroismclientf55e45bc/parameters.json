@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "heroismclientbc2409bb_identitypool_bc2409bb",
+    "identityPoolName": "heroismclientf55e45bc_identitypool_f55e45bc",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "heroisbc2409bb",
-    "userPoolName": "heroismclientbc2409bb_userpool_bc2409bb",
+    "resourceNameTruncated": "heroisf55e45bc",
+    "userPoolName": "heroismclientf55e45bc_userpool_f55e45bc",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,9 +28,9 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "heroisbc2409bb_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "heroisf55e45bc_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "heroismclientbc2409bb",
+    "resourceName": "heroismclientf55e45bc",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -44,22 +44,9 @@
             "Arn"
         ]
     },
-    "useDefault": "defaultSocial",
-    "hostedUI": true,
+    "useDefault": "default",
     "usernameAttributes": [
         "email"
     ],
-    "triggers": "{}",
-    "hostedUIDomainName": "heroismclient",
-    "authProvidersUserPool": [
-        "Facebook",
-        "Google"
-    ],
-    "hostedUIProviderMeta": "[{\"ProviderName\":\"Facebook\",\"authorize_scopes\":\"email,public_profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"id\"}},{\"ProviderName\":\"Google\",\"authorize_scopes\":\"openid email profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"sub\"}}]",
-    "parentStack": {
-        "Ref": "AWS::StackId"
-    },
-    "permissions": [],
-    "dependsOn": [],
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://localhost:5000/\"],\"LogoutURLs\":[\"https://localhost:5000/\"]}"
+    "dependsOn": []
 }

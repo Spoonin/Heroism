@@ -1,20 +1,18 @@
 {
     "heroismcl": {
         "awscloudformation": {
-            "AuthRoleName": "heroism-client-heroismcl-20190907170000-authRole",
-            "UnauthRoleArn": "arn:aws:iam::398715319432:role/heroism-client-heroismcl-20190907170000-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::398715319432:role/heroism-client-heroismcl-20190907170000-authRole",
+            "AuthRoleName": "heroism-client-heroismcl-20190928182201-authRole",
+            "UnauthRoleArn": "arn:aws:iam::398715319432:role/heroism-client-heroismcl-20190928182201-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::398715319432:role/heroism-client-heroismcl-20190928182201-authRole",
             "Region": "eu-central-1",
-            "DeploymentBucketName": "heroism-client-heroismcl-20190907170000-deployment",
-            "UnauthRoleName": "heroism-client-heroismcl-20190907170000-unauthRole",
-            "StackName": "heroism-client-heroismcl-20190907170000",
-            "StackId": "arn:aws:cloudformation:eu-central-1:398715319432:stack/heroism-client-heroismcl-20190907170000/c8adfd70-d177-11e9-80a0-0a0e69a2b94e"
+            "DeploymentBucketName": "heroism-client-heroismcl-20190928182201-deployment",
+            "UnauthRoleName": "heroism-client-heroismcl-20190928182201-unauthRole",
+            "StackName": "heroism-client-heroismcl-20190928182201",
+            "StackId": "arn:aws:cloudformation:eu-central-1:398715319432:stack/heroism-client-heroismcl-20190928182201/ba0cefa0-e203-11e9-86ff-0a176ee37dc4"
         },
         "categories": {
             "auth": {
-                "heroismclientbc2409bb": {
-                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"508049473332107\",\"client_secret\":\"71d08738dbd748719c94b7c2b5f385e7\"},{\"ProviderName\":\"Google\",\"client_id\":\"131982248227-2fuiefque0gbp02j0qd2viflnu7m3qun.apps.googleusercontent.com\",\"client_secret\":\"OfTLXKizxkRC6tKL7FoGIARI\"}]"
-                }
+                "heroismclientf55e45bc": {}
             }
         }
     }

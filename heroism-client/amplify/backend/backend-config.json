@@ -1,6 +1,6 @@
 {
 	"auth": {
-		"heroismclientbc2409bb": {
+		"heroismclientf55e45bc": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": []
