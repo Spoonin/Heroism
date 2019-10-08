@@ -2,20 +2,22 @@
   "name": "tstest",
   "version": "1.0.0",
   "description": "",
-  "main": "appInit.js",
+  "main": "index.html",
   "scripts": {
-    "dev": "concurrently \"sirv --port 8080 --etag\" \"npx ttsc --watch\"",
+    "start": "parcel src/index.html",
+    "build": "env NODE_ENV=production parcel build --experimental-scope-hoisting --detailed-report --public-url ./src ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@zoltu/typescript-transformer-append-js-extension": "^1.0.1",
-    "concurrently": "4.1.1",
-    "sirv-cli": "^0.4.4",
     "tslint": "^5.20.0",
     "tslint-config-standard-plus": "^2.2.0",
-    "ttypescript": "^1.5.7",
-    "typescript": "^3.6.3"
+    "typescript": "^3.6.3",
+    "parcel-bundler": "1.12.3"
+  },
+  "dependencies": {
+    "aws-amplify": "^1.1.40",
+    "hyperapp": "^2.0.1"
   }
 }

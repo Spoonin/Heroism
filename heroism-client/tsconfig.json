@@ -9,9 +9,15 @@
     "compileOnSave": false,
     "compilerOptions": {
         "outDir": "./dist",
+        "skipLibCheck": true,
         "strict": true,
+        "strictNullChecks": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitThis": true,
         "pretty": true,
         "sourceMap": true,
         "moduleResolution": "node",
@@ -23,7 +29,7 @@
         "baseUrl": "./",
         "typeRoots": [
             "node_modules/@types",
-            "src/@types"
+            "src/@types/hyperapp"
         ],
         "jsx": "react",
         "jsxFactory": "h",
@@ -36,12 +42,6 @@
             "es2015.symbol",
             "es2015.symbol.wellknown",
             "esnext.asynciterable"
-        ],
-        "plugins": [
-            {
-                "transform": "@zoltu/typescript-transformer-append-js-extension/output/index.js",
-                "after": true
-            }
         ]
     }
 }
